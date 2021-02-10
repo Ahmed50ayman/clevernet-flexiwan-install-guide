@@ -169,7 +169,8 @@ AWS EC2 through SSH as ```customer``` user. If you are deploying in another
 environment be sure to obtain access to a serial console of the VM where you can
 login.
 
-9. Login with the default customer credentials (user: customer - password:
+9. This step is not needed for AWS users that connect through the SSH key.
+  Login with the default customer credentials (user: customer - password:
   customer) and change the password:
 
   ![customer_shell](./figs/customer_shell.png)
